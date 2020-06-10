@@ -3,23 +3,30 @@ nav {
     font-family: "Helvetica Bold Font";
     text-decoration: none;
     background-image: url(../Images/matthieu-boure.jpg);
+    text-align: left;
 }
 .navlist {
     margin: 0;
-    padding: 0;
     list-style-type: none;
     overflow: hidden;
     text-decoration: none;
+    vertical-align: baseline;
+    text-align: left;
+    opacity: 1;
+    font-family: "Helvetica Bold Font";
 }
 h1 {
     font-style: normal;
-    text-decoration: underline;
-    text-align: center;
+    text-align: left;
     line-height: 1em;
     font-weight: normal;
     font-size: 1.5em;
+    color: #B7DBDF;
+    text-decoration: underline;
+    padding-left: 15px;
 }
 h2 {
+    margin-left: 10px;
 }
 body {
     background-color: #CCDDDB;
@@ -80,11 +87,11 @@ header {
 .navlistitem a  {
     display: block;
     padding-right: 16px;
-    padding-top: 14px;
     padding-left: 16px;
     padding-bottom: 16px;
     color: #AAD7E5;
     text-decoration: none;
+    padding-top: 14px;
 }
 .navlistitem a:hover {
     color: #D9E6E7;
